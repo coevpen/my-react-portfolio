@@ -6,18 +6,26 @@ function Nav(props){
 
     return (
         <nav>
-            <ul class="nav">
+            <ul class="nav justify-content-end">
                 <li onClick={ () => setContactSelected(false)}>
-                    <span>About Me</span>
+                    <div class="nav-item">
+                        <span class="nav-link">About Me</span>
+                    </div>
                 </li>
                 <li>
-                    <span>Portfolio</span>
+                    <div class="nav-item">
+                        <span class="nav-link">Portfolio</span>
+                    </div>
                 </li>
-                <li className={` ${contactSelected && 'navActive'}`}>
-                    <span>Contact Me</span>
+                <li class="nav-link" className={` ${contactSelected && 'navActive'}`}>
+                    <div class="nav-item">
+                        <span class="nav-link">Contact Me</span>
+                    </div>
                 </li>
                 <li>
-                    <span>Resume</span>
+                    <div class="nav-item">
+                        <span class="nav-link">Resume</span>
+                    </div>
                 </li>
             </ul>
         </nav>

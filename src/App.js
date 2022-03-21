@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div>
       <header>
         <Nav 
           setContactSelected={setContactSelected}
@@ -36,7 +36,7 @@ function App() {
       </main>
 
       <footer>
-
+          
       </footer>
     </div>
   );

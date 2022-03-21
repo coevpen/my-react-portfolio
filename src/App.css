@@ -1,7 +1,53 @@
-body{
-  background-color: #29335C;
+:root{
+  --primary-bg: #29335C;
+  --prime-text-color: white;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
 }
 
 header{
+  display: flex;
+  background-image: url('./assets/herojpg.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
 
+nav{
+  background: var(--primary-bg);
+  font-size: 20px;
+  margin-left: 70%;
+  margin-top: 5%;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: var(--prime-text-color);
+}
+
+.nav-link:hover{
+  color: var(--primary-bg);
+}
+
+
+main{
+  background-color: var(--primary-bg);
+  color: var(--prime-text-color);
+}
+
+.about-me{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.about-me-h2{
+  margin-left: 20px;
+}
+
+footer{
+  background-color: #8163D8;
 }
