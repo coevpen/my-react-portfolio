@@ -3,6 +3,10 @@
   --prime-text-color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 html, body{
   background-color: var(--primary-bg);
   margin: 0;
@@ -61,6 +65,7 @@ main{
 .about-me-h2{
   margin-left: 20px;
 }
+
 
 footer{
   background-color: #8163D8;

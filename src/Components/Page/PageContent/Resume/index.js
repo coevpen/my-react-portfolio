@@ -8,11 +8,11 @@ function Resume(){
             </div>
 
             <div>
-                <a href={require("../../../../assets/files/CourtneyEvinsResume.pdf")} download>Download my resume</a>
+                <a className="text-decoration-none" href={require("../../../../assets/files/CourtneyEvinsResume.pdf")} download>Download my resume</a>
             </div>
 
             <div>
-
+            
             </div> 
         </section>
     );
