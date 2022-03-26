@@ -12,7 +12,7 @@ function Project(props){
             {props.projects.map((project) => (
                 <Col md={4}>
                     <Card>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Img variant="top" src={project.image} />
                         <Card.Body>
                             <Card.Title>{project.title}</Card.Title>
                             <Card.Text>
