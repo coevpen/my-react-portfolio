@@ -1,5 +1,6 @@
 :root{
   --primary-bg: #29335C;
+  --secondary-bg: #8163D8;
   --prime-text-color: white;
 }
 
@@ -10,6 +11,7 @@ a{
 html, body{
   background-color: var(--primary-bg);
   margin: 0;
+  overflow-x: hidden;
 }
 
 header{
@@ -66,9 +68,24 @@ main{
   margin-left: 20px;
 }
 
+.card{
+  background-color: var(--primary-bg);
+  width: 33rem;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.card-img-top{
+  width: 33rem;
+}
+
+.card-body{
+  background-color: var(--secondary-bg);
+}
+
 
 footer{
-  background-color: #8163D8;
+  background-color: var(--secondary-bg);
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -96,6 +113,11 @@ footer{
 
   .nav-link{
     font-size: 19px;
+  }
+
+  .card{
+    background-color: var(--primary-bg);
+    width: 21rem;
   }
 
 }
