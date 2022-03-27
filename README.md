@@ -11,4 +11,7 @@ This website was built to be my developer portfolio. Within, it provides a littl
 
 ## Deployed Site
 
+https://coevpen.github.io/my-react-portfolio/
+
 ## Screenshot
+![](/src/assets/images/screenshot.gif)
