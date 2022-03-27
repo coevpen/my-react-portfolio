@@ -65,7 +65,8 @@ main{
 .about-me{
   text-align: left;
   margin-left: 40px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  width: 60%;
 }
 
 .about-me-h2{
@@ -133,6 +134,30 @@ button{
   background-color: var(--secondary-bg);
 }
 
+/* Resume section */
+.resume{
+  text-align: center;
+}
+
+.resume-body{
+  margin-top: 20px;
+}
+
+.resume h4{
+  text-align: left;
+}
+
+.resume ul{
+  text-align: left;
+  list-style: inside;
+}
+
+.download{
+  color: var(--prime-text-color);
+  background-color: var(--secondary-bg);
+  font-size: 22px;
+}
+
 /* footer */
 footer{
   background-color: var(--secondary-bg);
@@ -145,8 +170,78 @@ footer{
   margin-left: 30%;
 }
 
+/* MEDIA QUERY FOR 900 AND SMALLER*/
+@media screen and (max-width: 912px){
+  /* cards */
+  .card{
+    background-color: var(--primary-bg);
+    width: 15rem;
+    margin-left: 10px;
+  }
+
+  p, li, label, button{
+    font-size: 26px;
+  }
+
+  /* header */
+  .header-titles{
+    width: 400px;
+    margin-top: 100px;
+  }
+
+  .title, .subtitle{
+    width: 700px;
+  }
+
+
+  /* contact form */
+  .name {
+    margin-right: 94px;
+  }
+
+  /* navigation */
+  nav{
+    margin-left: 30%;
+    justify-content: center;
+  }
+}
+
+/* MEDIA QUERY FOR 900 AND SMALLER*/
+@media screen and (max-width: 770px){
+  /* navigation */
+  nav{
+    margin-left: 19%;
+  }
+
+  .nav-link{
+    font-size: 24px;
+  }
+
+  .resume li, .about p, .card-text{
+    font-size: 20px;
+  }
+
+  .title, .subtitle{
+    padding: 0 10px 0 200px;
+  }
+
+  .title{
+    width: 460px;
+  }
+
+  .subtitle{
+    width: 400px;
+  }
+}
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+
+  /* header */
+  .header-titles{
+    width: 200px;
+    margin: 0;
+  }
 
   .title, .subtitle{
     padding: 0 0px 0 4px;
@@ -156,6 +251,7 @@ footer{
     padding-top: 10px;
   }
 
+  /* navigation */
   nav{
     margin-left: 30%;
     justify-content: center;
@@ -165,12 +261,15 @@ footer{
     font-size: 19px;
   }
 
+
+  /* cards */
   .card{
     background-color: var(--primary-bg);
     width: 21rem;
     margin-left: 10px;
   }
 
+  /* form */
   form{
     margin: 0;
   }
@@ -183,4 +282,11 @@ footer{
     width: 350px;
   }
 
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 412px) {
+  nav{
+    margin-left: 20%;
+  }
 }
