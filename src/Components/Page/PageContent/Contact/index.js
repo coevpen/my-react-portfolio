@@ -33,24 +33,26 @@ function ContactForm(){
         <section>
             <h1>Contact me</h1>
             <form id="contact-form" action="mailto:koinuevins@gmail.com" method="post" encType="text/plain">
-                <div>
-                    <label htmlFor="name">Name:</label>
+                <div className="name-div">
+                    <label className="name" htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
+                <div className="email-div">
+                    <label className="email" htmlFor="email">Email address:</label>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label className="message" htmlFor="message">Message:</label>
+                    <div>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button className="button" type="submit">Submit</button>
+                <button type="submit">Submit</button>
         </form>
         </section>
     );
