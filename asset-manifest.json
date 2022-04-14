@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.ff745b9c.css",
-    "main.js": "/my-react-portfolio/static/js/main.389a23e2.js",
+    "main.js": "/my-react-portfolio/static/js/main.744da11f.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/herojpg.jpg": "/my-react-portfolio/static/media/herojpg.37798033793d2ebdbda8.jpg",
-    "static/media/CourtneyEvinsResume.pdf": "/my-react-portfolio/static/media/CourtneyEvinsResume.19c286a2020e2541ba6b.pdf",
+    "static/media/CourtneyEvinsResume.pdf": "/my-react-portfolio/static/media/CourtneyEvinsResume.f7df70cf064b3c5d7ca8.pdf",
     "static/media/portfolio.jpg": "/my-react-portfolio/static/media/portfolio.f96cdd2db4c5f2a28d7a.jpg",
     "static/media/weather-forecast.jpg": "/my-react-portfolio/static/media/weather-forecast.dd9484ca6f054a0c1624.jpg",
     "static/media/my-night-sky.jpg": "/my-react-portfolio/static/media/my-night-sky.714dbd044731b6a66b14.jpg",
-    "static/media/timed-quiz.jpg": "/my-react-portfolio/static/media/timed-quiz.4138609fe579eb3ced45.jpg",
+    "static/media/poketeams.jpg": "/my-react-portfolio/static/media/poketeams.a9c333ae6e5695140f5f.jpg",
     "static/media/pick-of-the-day.jpg": "/my-react-portfolio/static/media/pick-of-the-day.9e0c209be253ffd5989a.jpg",
     "static/media/we-rate-pets.jpg": "/my-react-portfolio/static/media/we-rate-pets.6f85cc258e558506c212.jpg",
     "index.html": "/my-react-portfolio/index.html",
     "main.ff745b9c.css.map": "/my-react-portfolio/static/css/main.ff745b9c.css.map",
-    "main.389a23e2.js.map": "/my-react-portfolio/static/js/main.389a23e2.js.map",
+    "main.744da11f.js.map": "/my-react-portfolio/static/js/main.744da11f.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff745b9c.css",
-    "static/js/main.389a23e2.js"
+    "static/js/main.744da11f.js"
   ]
 }
