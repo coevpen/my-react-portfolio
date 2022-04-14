@@ -3,7 +3,7 @@ import Project from './Project';
 import PickOfTheDay from '../../../../assets/images/pick-of-the-day.jpg';
 import NightSky from '../../../../assets/images/my-night-sky.jpg';
 import RatePets from '../../../../assets/images/we-rate-pets.jpg';
-import TimedQuiz from '../../../../assets/images/timed-quiz.jpg';
+import PokeTeams from '../../../../assets/images/poketeams.jpg';
 import BasicPort from '../../../../assets/images/portfolio.jpg';
 import Weather from '../../../../assets/images/weather-forecast.jpg';
 
@@ -47,12 +47,12 @@ const projects = [
     },
     {
         id: 4,
-        title: "JavaScript Timed Quiz",
-        languages: "HTML, CSS, JavaScript",
-        image: TimedQuiz,
-        description: "A timed quiz about javascript. It takes time off the clock for every wrong answer and provides an ending high score.",
-        deployed: "https://coevpen.github.io/javascript-time-quiz/",
-        repo: "https://github.com/coevpen/javascript-time-quiz",
+        title: "PokeTeams",
+        languages: "HTML, CSS, JavaScript, GraphQL, React, Apollo Client, Tailwind",
+        image: PokeTeams,
+        description: "A site that lets you build your dream pokemon team (or teams!).",
+        deployed: "https://evening-mountain-59213.herokuapp.com/",
+        repo: "https://github.com/fmills89/poke-teams-builder",
     },
     {
         id: 5,
