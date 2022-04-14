@@ -48,7 +48,7 @@ const projects = [
     {
         id: 4,
         title: "PokeTeams",
-        languages: "HTML, CSS, JavaScript, GraphQL, React, Apollo Client, Tailwind",
+        languages: "HTML, CSS, JavaScript, GraphQL, React, Apollo Client, Tailwind, MongoDB",
         image: PokeTeams,
         description: "A site that lets you build your dream pokemon team (or teams!).",
         deployed: "https://evening-mountain-59213.herokuapp.com/",
